@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChuyenDoi">
+
+
+
+    <TextView
+        android:id="@+id/textView_F"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fahrenheit"/>
+
+    <EditText
+        android:id="@+id/editText_F"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        />
+
+
+    <TextView
+        android:id="@+id/textView_C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Celsius"
+        />
+
+    <EditText
+        android:id="@+id/editText_C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+
+         />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/button_doiC"
+            android:layout_width="183dp"
+            android:layout_height="45pt"
+            android:text="Convert To Celsius"
+             />
+
+        <Button
+            android:id="@+id/button_doiF"
+            android:layout_width="wrap_content"
+            android:layout_height="45pt"
+            android:text="Convert To Fahrenheit" /></LinearLayout>
+    <Button
+        android:id="@+id/button_Xoatrang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear" />
+
+
+
+
+
+
+
+
+
+</LinearLayout>
